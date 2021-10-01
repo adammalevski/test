@@ -1,0 +1,1 @@
+docker run grilix/docker-capistrano cap test deploy

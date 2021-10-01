@@ -1,0 +1,149 @@
+# Logfile created on 2021-10-01 12:03:50 +0000 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:03:50 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [878a4f85] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@example.com
+ DEBUG [878a4f85] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:04:36 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f541dda2] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@example.com
+ DEBUG [f541dda2] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:06:03 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [735ed2f5] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@example.com
+ DEBUG [735ed2f5] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:06:47 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [54cd92b7] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@example.com
+ DEBUG [54cd92b7] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:09:43 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [af30091a] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [af30091a] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [af30091a] Finished in 5.043 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [f77718e1] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [f77718e1] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [f77718e1] Finished in 0.003 seconds with exit status 0 (successful).
+  INFO [c2c86c9b] Running /usr/bin/env git ls-remote --heads  as vagrant@host.docker.internal
+ DEBUG [c2c86c9b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads  )
+ DEBUG [c2c86c9b] 	fatal: No remote configured to list refs from.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:10:49 +0000 cap test setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:10:54 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7719822d] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [7719822d] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [7719822d] Finished in 2.833 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [2bde0ace] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [2bde0ace] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [2bde0ace] Finished in 0.003 seconds with exit status 0 (successful).
+  INFO [97aac192] Running /usr/bin/env git ls-remote --heads  as vagrant@host.docker.internal
+ DEBUG [97aac192] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads  )
+ DEBUG [97aac192] 	fatal: No remote configured to list refs from.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:25:28 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ecff7571] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [ecff7571] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [ecff7571] Finished in 2.939 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [ebd4c881] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [ebd4c881] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [ebd4c881] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [331a6194] Running /usr/bin/env git ls-remote --heads  as vagrant@host.docker.internal
+ DEBUG [331a6194] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads  )
+ DEBUG [331a6194] 	fatal: No remote configured to list refs from.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:26:10 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c3e2a6db] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [c3e2a6db] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [c3e2a6db] Finished in 1.959 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [ddb6558d] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [ddb6558d] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [ddb6558d] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [245d1708] Running /usr/bin/env git ls-remote --heads  as vagrant@host.docker.internal
+ DEBUG [245d1708] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads  )
+ DEBUG [245d1708] 	fatal: No remote configured to list refs from.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:27:57 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4b3578b8] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [4b3578b8] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [4b3578b8] Finished in 1.978 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [a33184b3] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [a33184b3] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [a33184b3] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [7205a8b3] Running /usr/bin/env git ls-remote --heads https://github.com/username/appname.git as vagrant@host.docker.internal
+ DEBUG [7205a8b3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads https://github.com/username/appname.git )
+ DEBUG [7205a8b3] 	remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+ DEBUG [7205a8b3] 	remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+ DEBUG [7205a8b3] 	fatal: Authentication failed for 'https://github.com/username/appname.git/'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-10-01 12:29:38 +0000 cap test deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [30984ad2] Running /usr/bin/env mkdir -p /tmp/testcap/ as vagrant@host.docker.internal
+ DEBUG [30984ad2] Command: /usr/bin/env mkdir -p /tmp/testcap/
+  INFO [30984ad2] Finished in 2.516 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/testcap/git-ssh.sh 0.0%
+  INFO Uploading /tmp/testcap/git-ssh.sh 100.0%
+  INFO [a7978131] Running /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh as vagrant@host.docker.internal
+ DEBUG [a7978131] Command: /usr/bin/env chmod +rx /tmp/testcap/git-ssh.sh
+  INFO [a7978131] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [7ceb3369] Running /usr/bin/env git ls-remote --heads https://github.com/adammalevski/test.git as vagrant@host.docker.internal
+ DEBUG [7ceb3369] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git ls-remote --heads https://github.com/adammalevski/test.git )
+  INFO [7ceb3369] Finished in 0.308 seconds with exit status 0 (successful).
+  INFO [8f84d84a] Running /usr/bin/env mkdir -p /var/www/shared /var/www/releases as vagrant@host.docker.internal
+ DEBUG [8f84d84a] Command: /usr/bin/env mkdir -p /var/www/shared /var/www/releases
+  INFO [8f84d84a] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG [3d549265] Running [ -f /var/www/current/REVISION ] as vagrant@host.docker.internal
+ DEBUG [3d549265] Command: [ -f /var/www/current/REVISION ]
+ DEBUG [3d549265] Finished in 0.004 seconds with exit status 1 (failed).
+ DEBUG [8c7ab0d9] Running [ -f /var/www/repo/HEAD ] as vagrant@host.docker.internal
+ DEBUG [8c7ab0d9] Command: [ -f /var/www/repo/HEAD ]
+ DEBUG [8c7ab0d9] Finished in 0.004 seconds with exit status 1 (failed).
+ DEBUG [727e09ef] Running if test ! -d /var/www; then echo "Directory does not exist '/var/www'" 1>&2; false; fi as vagrant@host.docker.internal
+ DEBUG [727e09ef] Command: if test ! -d /var/www; then echo "Directory does not exist '/var/www'" 1>&2; false; fi
+ DEBUG [727e09ef] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [810ee68e] Running /usr/bin/env git clone --mirror https://github.com/adammalevski/test.git /var/www/repo as vagrant@host.docker.internal
+ DEBUG [810ee68e] Command: cd /var/www && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git clone --mirror https://github.com/adammalevski/test.git /var/www/repo )
+ DEBUG [810ee68e] 	Cloning into bare repository '/var/www/repo'...
+ DEBUG [810ee68e] 	warning: You appear to have cloned an empty repository.
+  INFO [810ee68e] Finished in 0.335 seconds with exit status 0 (successful).
+ DEBUG [3fced5c4] Running if test ! -d /var/www/repo; then echo "Directory does not exist '/var/www/repo'" 1>&2; false; fi as vagrant@host.docker.internal
+ DEBUG [3fced5c4] Command: if test ! -d /var/www/repo; then echo "Directory does not exist '/var/www/repo'" 1>&2; false; fi
+ DEBUG [3fced5c4] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [9027535c] Running /usr/bin/env git remote update --prune as vagrant@host.docker.internal
+ DEBUG [9027535c] Command: cd /var/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9027535c] 	Fetching origin
+  INFO [9027535c] Finished in 0.327 seconds with exit status 0 (successful).
+ DEBUG [ec55842a] Running if test ! -d /var/www/repo; then echo "Directory does not exist '/var/www/repo'" 1>&2; false; fi as vagrant@host.docker.internal
+ DEBUG [ec55842a] Command: if test ! -d /var/www/repo; then echo "Directory does not exist '/var/www/repo'" 1>&2; false; fi
+ DEBUG [ec55842a] Finished in 0.004 seconds with exit status 0 (successful).
+  INFO [8053d6f8] Running /usr/bin/env mkdir -p /var/www/releases/20211001122941 as vagrant@host.docker.internal
+ DEBUG [8053d6f8] Command: cd /var/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/releases/20211001122941 )
+  INFO [8053d6f8] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [c78dd9ca] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/releases/20211001122941 as vagrant@host.docker.internal
+ DEBUG [c78dd9ca] Command: cd /var/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/testcap/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/releases/20211001122941 )
+ DEBUG [c78dd9ca] 	fatal: Not a valid object name
+ DEBUG [c78dd9ca] 	tar: 
+ DEBUG [c78dd9ca] 	This does not look like a tar archive
+ DEBUG [c78dd9ca] 	
+ DEBUG [c78dd9ca] 	tar: 
+ DEBUG [c78dd9ca] 	Exiting with failure status due to previous errors
+ DEBUG [c78dd9ca] 	
